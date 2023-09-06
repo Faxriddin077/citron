@@ -12,25 +12,60 @@ return [
         'Inglis_tili' => 'Ingliz',
         'Rus_tili' => 'Rus',
         'Uzbek_tili' => 'Uzbek',
+        'phone' => "Telefon",
+        'address' => "Manzil",
+        'email' => "Elektron manzil",
+        'address2' => "Xorazm viloyati, Urganch shahri, Al-Xorazmiy ko'chasi, 110-uy",
     ],
 
     //Home
     'home' => [
-        'title' => 'Welcome to CITRON LAB',
-        'description' => 'We are research and development team of talented software and hardware engineers'
+        'title' => 'CITRONGA XUSH KELIBSIZ',
+        'description' => 'Biz iqtidorli dasturiy ta`minot va apparat muhandislaridan iborat tadqiqot va ishlanmalar jamoasimiz',
+        'about_title' => "Jamoamiz va labaratoriyamiz haqida",
+        'about_text' => "Bizning labaratoriya 2021-yil oktabir oyida Xudaybergenov Timur va Xo‘jamuratov Bekmurot tomonidan Muhammad al-Xorazmiy nomidagi Toshkent Axborot Texnalogiyalari Universiteti binosida asos solingan va Hozirgacha shu manzilda faoliyatini yuritib kelmoqda.",
+        'soft' => 'Labaratoriyaizning Software xonasi',
+        'hard' => 'Labaratoriyamizning Hardware xonasi',
+        'project' => "Loyihalar",
+        'completed_project' => "Tugallanggan loyihalar",
+        'project_participants' => "Loyixa ishtirokchilari",
+        'solutions' => 'Qanday yechimlarni taqdim etamiz?',
+        'founders' => 'ASOSCHILAR',
+        'about' => 'BIZ HAQIMIZDA',
+        'members' => 'Bizning a`zolar'
     ],
 
     'services' => [
-        'solutions' => 'Qanday_yechimlarni_taqdim_etamiz'
+        'solutions' => 'Qanday yechimlarni taqdim etamiz?'
     ],
 
-    'about' => [],
+    'about' => [
+        'about' => 'BIZ HAQIMIZDA',
+        'member' => "Bizning a'zolar",
+    ],
 
-    'project' => [],
+    'project' => [
+        'project' => "Loyihalar",
+        'completed_project' => "Tugallanggan loyihalar",
+        'project_participants' => "Loyixa ishtirokchilari",
+    ],
 
-    'gallery' => [],
+    'gallery' => [
+        'title' => "Galereya"
+    ],
 
-    'contact' => [],
+    'contact' => [
+        'title' => 'Biz bilan aloqa',
+        'call' => 'Har qanday so’rov uchun murojaat qiling',
+        'address' => 'Bizning manzil',
+        'email' => "Elektron pochta",
+        'call_us' => "Bizga qo’ng’iroq qiling",
+        'firstname' => "Ismingiz",
+        'your_email' => "Sizning elektron manzilingiz",
+        'subject' => "Mavzu",
+        'message' => "Xabar",
+        'send' => "Xabarni yuborish",
+    ],
 
 
     'text' => 'Citron aqillilar va ijodkorlar jamoasi ',

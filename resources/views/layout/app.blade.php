@@ -63,8 +63,8 @@
 <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-            <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
-            <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
+            <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">citronlab@gmail.com</a>
+            <i class="bi bi-phone-fill phone-icon"></i> +998 90 578 64 78
         </div>
         <div class="social-links d-none d-md-block">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -158,10 +158,11 @@
                     <div class="footer-info">
                         <h3>{{__('index.Day')}}</h3>
                         <p>
-                            A108 Adam Street <br>
-                            NY 535022, USA<br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            {{__('index.navbar.address')}}:<br>
+                            {{__('index.navbar.address2')}}
+                            <br><br>
+                            <strong>{{__('index.navbar.phone')}}:</strong> +998 90 578 64 78<br>
+                            <strong>{{__('index.navbar.home')}}</strong> citronlab@gmail.com<br>
                         </p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -194,19 +195,8 @@
                         </li>
                         <li>
                             <i class="bx bx-chevron-right"></i>
-                            <a href="{{route('gallery')}}">{{__('index.navbar.gallery')}}</a>
+                            <a href="{{route('gallery')}}">{{__('index.navbar.gal')}}</a>
                         </li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
                     </ul>
                 </div>
 

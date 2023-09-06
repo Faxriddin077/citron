@@ -12,25 +12,60 @@ return [
         'Inglis_tili' => 'English',
         'Rus_tili' => 'Russian',
         'Uzbek_tili' => 'Uzbek',
+        'phone' => "Phone number",
+        'address' => "Address",
+        'email' => "E-mail address",
+        'address2' => "Хорезмская область, город Ургенч, улица Аль-Хорезми, 110",
     ],
 
     //Home
     'home' => [
         'title' => 'Welcome to CITRON LAB',
-        'description' => 'We are research and development team of talented software and hardware engineers'
+        'description' => 'We are research and development team of talented software and hardware engineers',
+        'about_title' => "About our team and laboratory",
+        'about_text' => "Our laboratory was founded in October 2021 by Timur Khudaybergenov and Khojamuratov Bekmurot in the building of the Tashkent University of Information Technologies named after Muhammad al-Khorazmi and has been operating at this address until now.",
+        'soft' => 'Software room of our laboratory',
+        'hard' => 'Hardware inspection of our laboratory',
+        'project' => "Projects",
+        'completed_project' => "Completed projects",
+        'project_participants' => "Project participants",
+        'solutions' => 'What solutions do we provide?',
+        'founders' => 'Founders',
+        'about' => 'About Us',
+        'members' => 'Our members',
     ],
 
     'services' => [
-        'solutions' => 'Qanday_yechimlarni_taqdim_etamiz'
+        'solutions' => 'What solutions do we provide?'
     ],
 
-    'about' => [],
+    'about' => [
+        'about' => 'About Us',
+        'members' => 'Our members',
+    ],
 
-    'project' => [],
+    'project' => [
+        'project' => "Projects",
+        'completed_project' => "Completed projects",
+        'project_participants' => "Project participants",
+    ],
 
-    'gallery' => [],
+    'gallery' => [
+        'title' => "Gallery"
+    ],
 
-    'contact' => [],
+    'contact' => [
+        'title' => 'Contact',
+        'call' => 'For any query please contact',
+        'address' => 'Our Address',
+        'email' => "Email",
+        'call_us' => "Call Us",
+        'firstname' => "Your name",
+        'your_email' => "Your email",
+        'subject' => "Subject",
+        'message' => "Message",
+        'send' => "Send",
+    ],
 
     'text' => 'Citron is a team of geniuses and creators',
     'Read More' => 'Read More',

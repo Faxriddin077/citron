@@ -5,9 +5,9 @@
         <div class="container">
 
             <div class="section-title">
-                <span>{{__('index.about')}}</span>
-                <h2>{{__('index.about')}}</h2>
-                <p>{{__('index.Bizning A`zolar')}}</p>
+                <span>{{__('index.about.about')}}</span>
+                <h2>{{__('index.about.about')}}</h2>
+                <p>{{__('index.about.members')}}</p>
             </div>
 
             <div class="row">
