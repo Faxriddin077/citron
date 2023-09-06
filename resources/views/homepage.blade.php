@@ -4,9 +4,8 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
-            <h1>Welcome to CITRON LAB</h1>
-            <h2>We are research and development team of talented software and hardware engineers</h2>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <h1>{{__('index.home.title')}}</h1>
+            <h2>{{__('index.home.description')}}</h2>
         </div>
     </section><!-- End Hero -->
 
@@ -18,7 +17,7 @@
 
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-                        <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/about.jpg') }}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
                         <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -183,9 +182,9 @@
                 <div class="container">
 
                     <div class="section-title">
-                        <span>{{__('index.services')}}</span>
-                        <h2>{{__('index.services')}}</h2>
-                        <p>{{__('index.Qanday_yechimlarni_taqdim_etamiz')}}</p>
+                        <span>{{__('index.navbar.services')}}</span>
+                        <h2>{{__('index.navbar.services')}}</h2>
+                        <p>{{__('index.navbar.solutions')}}</p>
                     </div>
                     <div class="row">
 

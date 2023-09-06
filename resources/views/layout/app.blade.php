@@ -91,40 +91,51 @@
                     </a>
                 </li>
                 <li><a class="nav-link scrollto @if(Route::Is('service')) active @endif" href="{{route('service')}}">
-                        {{__('index.services')}}
+                        {{__('index.navbar.services')}}
                     </a>
                 </li>
                 <li>
                     <a class="nav-link scrollto @if(Route::Is('about')) active @endif" href="{{route('about')}}">
-                        {{__('index.about')}}
+                        {{__('index.navbar.about')}}
                     </a>
                 </li>
                 <li>
                     <a class="nav-link scrollto @if(Route::Is('project')) active @endif" href="{{route('project')}}">
-                        {{__('index.project')}}
+                        {{__('index.navbar.project')}}
                     </a>
                 </li>
                 <li>
                     <a class="nav-link scrollto @if(Route::Is('gallery')) active @endif" href="{{route('gallery')}}">
-                        {{__('index.gal')}}
+                        {{__('index.navbar.gal')}}
                     </a>
                 </li>
                 <li>
                     <a class="nav-link scrollto @if(Route::Is('contact')) active @endif"
                        href="{{route('contact')}}">
-                        {{__('index.contact')}}
+                        {{__('index.navbar.contact')}}
                     </a>
                 </li>
-                <li class="dropdown"><a href="#"><span>{{__('index.Language')}}</span> <i
-                            class="bi bi-chevron-down"></i></a>
+                <li class="dropdown">
+                    <a href="#">
+                        <span>{{__('index.navbar.Language')}}</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
                     <ul>
-                        <li><a href="locale/en">{{__('index.Inglis_tili')}}<img
-                                    src="{{ asset('assets/vendor/flag/uk.png') }}" width="30" height="30"/></a></li>
-                        <li><a href="locale/ru">{{__('index.Rus_tili')}}<img
-                                    src="{{ asset('assets/vendor/flag/russia.png') }}" width="30" height="30"/></a>
+                        <li>
+                            <a href="locale/en">
+                                {{__('index.navbar.Inglis_tili')}}
+                                <img src="{{ asset('assets/vendor/flag/uk.png') }}" width="30" height="30" alt="En flag"/>
+                            </a>
                         </li>
-                        <li><a href="locale/uz">{{__('index.Uzbek_tili')}}<img
-                                    src="{{ asset('assets/vendor/flag/uzb.png') }}" width="30" height="30"/></a>
+                        <li>
+                            <a href="locale/ru">{{__('index.navbar.Rus_tili')}}
+                                <img src="{{ asset('assets/vendor/flag/russia.png') }}" width="30" height="30" alt="Ru flag"/>
+                            </a>
+                        </li>
+                        <li><a href="locale/uz">
+                                {{__('index.navbar.Uzbek_tili')}}
+                                <img src="{{ asset('assets/vendor/flag/uzb.png') }}" width="30" height="30" alt="Uz flag"/>
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -165,16 +176,26 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="{{route('home')}}">{{__('index.home')}}</a>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="{{route('home')}}">{{__('index.navbar.home')}}</a>
                         </li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="{{route('about')}}">{{__('index.about')}}</a>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="{{route('about')}}">{{__('index.navbar.about')}}</a>
                         </li>
-                        <li><i class="bx bx-chevron-right"></i> <a
-                                href="{{route('service')}}">{{__('index.services')}}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a
-                                href="{{route('project')}}">{{__('index.project')}}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a
-                                href="{{route('gallery')}}">{{__('index.gallery')}}</a></li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="{{route('service')}}">{{__('index.navbar.services')}}</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="{{route('project')}}">{{__('index.navbar.project')}}</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="{{route('gallery')}}">{{__('index.navbar.gallery')}}</a>
+                        </li>
                     </ul>
                 </div>
 

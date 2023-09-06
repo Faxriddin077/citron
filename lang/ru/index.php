@@ -1,5 +1,6 @@
 <?php
 return [
+    //Navbar
     'navbar' => [
         'home' => 'Главная страница',
         'services' => 'Услуги',
@@ -7,19 +8,30 @@ return [
         'project' => 'Пройекты',
         'contact' => 'Контакт',
         'gal' => 'Галерея',
+        'Language' => 'Язык',
+        'Inglis_tili' => 'Английский',
+        'Rus_tili' => 'Русский',
+        'Uzbek_tili' => 'Узбекский',
     ],
-    'home' =>[
-        'title' => ''
+
+    //Home
+    'home' => [
+        'title' => 'Welcome to CITRON LAB',
+        'description' => 'We are research and development team of talented software and hardware engineers'
     ],
-    'Language' => 'Язык',
-    'Inglis_tili' => 'Английский',
-    'Rus_tili' => 'Русский',
-    'Uzbek_tili' => 'Узбекский',
 
-    //Navbar
+    'services' => [
+        'solutions' => 'Какие решения мы предлагаем'
+    ],
 
+    'about' => [],
 
-    //home
+    'project' => [],
+
+    'gallery' => [],
+
+    'contact' => [],
+
     'text' => 'Цитрон - команда гениев и творцов',
     'Read More' => 'Читать больше',
     'Contact Us' => 'Обратитесь к нам',
