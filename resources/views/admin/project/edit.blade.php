@@ -100,7 +100,7 @@
                     icon: 'error',
                     title: 'Oops...',
                     text: '{{ $error }}',
-                    footer: '<a href="{{route('projects.edit')}}">Why do I have this issue?</a>'
+                    footer: 'Why do I have this issue?'
                 })
             </script>
         @endforeach
