@@ -78,8 +78,8 @@
 <!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
+        <img  style="height: 4em;" src="{{ asset('logo.jpg') }}" alt="Logo">
 
-        <h1 class="logo"><a href="">CiTroN</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 

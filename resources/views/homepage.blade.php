@@ -89,13 +89,13 @@
                                                 <p class="text-center mt-2">{{($project->{'desc_' . app()->getLocale()})}}</p>
                                             </div>
 
-                                                <h5>{{__('index.home.project_participants')}}:
-                                                @foreach($project->project_has_user as $item)
-                                                    <lf>
-                                                        {{$item->user->name }}<?php echo ","." "?>
-                                                    </lf>
-                                                @endforeach
-                                                </h5>
+{{--                                                <h5>{{__('index.home.project_participants')}}:--}}
+{{--                                                @foreach($project->project_has_user as $item)--}}
+{{--                                                    <lf>--}}
+{{--                                                        {{$item->user->name }}<?php echo ","." "?>--}}
+{{--                                                    </lf>--}}
+{{--                                                @endforeach--}}
+{{--                                                </h5>--}}
                                         </div>
                                     </div>
                                 </div>
