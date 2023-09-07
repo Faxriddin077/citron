@@ -4,7 +4,7 @@ return [
     'navbar' => [
         'home' => 'Главная страница',
         'services' => 'Услуги',
-        'about' => 'О',
+        'about' => 'О нас',
         'project' => 'Пройекты',
         'contact' => 'Контакт',
         'gal' => 'Галерея',
