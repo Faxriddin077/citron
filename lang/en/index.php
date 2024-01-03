@@ -5,6 +5,7 @@ return [
         'home' => 'Home',
         'services' => 'Services',
         'about' => 'About',
+        'grant_projects' => 'Grant projects',
         'project' => 'Project',
         'contact' => 'Contact',
         'gal' => 'Gallery',

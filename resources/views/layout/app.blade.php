@@ -100,6 +100,11 @@
                     </a>
                 </li>
                 <li>
+                    <a class="nav-link scrollto @if(Route::Is('grant_projects')) active @endif" href="{{route('grant_projects')}}">
+                        {{__('index.navbar.grant_projects')}}
+                    </a>
+                </li>
+                <li>
                     <a class="nav-link scrollto @if(Route::Is('project')) active @endif" href="{{route('project')}}">
                         {{__('index.navbar.project')}}
                     </a>

@@ -208,7 +208,7 @@
 
                 <div class="section-title">
                     <span>{{__('index.home.about')}}</span>
-                    <h2>{{__('index.home.about')}}</h2>
+                    <h2 title="qqqqqqq">asdas{{__('index.home.about')}}</h2>
                     <p>{{__('index.home.members')}}</p>
                 </div>
                 <div class="row">

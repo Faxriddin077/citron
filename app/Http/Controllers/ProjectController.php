@@ -67,11 +67,15 @@ class ProjectController extends Controller
 
     }
 
+    public function showGrants()
+    {
+
+    }
+
     /**
      * Display the specified resource.
      */
-    public
-    function show()
+    public function show()
     {
         $projects = Project::all();
         $users = ProjectHasUser::all();

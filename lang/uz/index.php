@@ -5,6 +5,7 @@ return [
         'home' => 'Bosh sahifa',
         'services' => 'Xizmatlar',
         'about' => 'Biz xaqimizda',
+        'grant_projects' => 'Grant loyihalar',
         'project' => 'Loyihalar',
         'contact' => 'Bog`lanish',
         'gal' => 'Galereya',
