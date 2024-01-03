@@ -79,8 +79,8 @@ class ProjectController extends Controller
      */
     public function show()
     {
-        $projects = Project::all();
-        $users = ProjectHasUser::all();
+        $projects = Project::query()->where('is_grant', 0)->get();
+        $users = ProjectHasUser::query()->whereIn('project_id', $projects->pluck('id')->toArray())->get();
         return view('project', compact('projects', 'users'));
     }
 
